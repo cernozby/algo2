@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "string.h"
 
+//odkaz na github https://github.com/cernozby/algo2
 //nepochopil jsem enum pro *. Klasické funguje jen pro "klasická písmena", kam symbol * nepatri
 
 typedef struct Movie Movie;

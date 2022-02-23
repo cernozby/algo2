@@ -1,3 +1,5 @@
+//odkaz na github https://github.com/cernozby/algo2
+
 #include <stdio.h>
 #include "math.h"
 #include <stdlib.h>
