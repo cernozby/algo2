@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zbysa/CLionProjects/algo2/algo2_1.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+C:/Users/Zbysa/CLionProjects/algo2/string.h
+
+C:/Users/Zbysa/CLionProjects/algo2/algo2_2.c
+stdio.h
+-
+math.h
+C:/Users/Zbysa/CLionProjects/algo2/math.h
+stdlib.h
+-
+
+C:/Users/Zbysa/CLionProjects/algo2/main.c
+algo2_1.c
+C:/Users/Zbysa/CLionProjects/algo2/algo2_1.c
+algo2_2.c
+C:/Users/Zbysa/CLionProjects/algo2/algo2_2.c
+
