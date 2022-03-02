@@ -1,8 +1,9 @@
 //
 // Created by Zbysa on 23.02.2022.
 //
-#include "algo2_1.c"
-#include "algo2_2.c"
+//#include "algo2_1.c"
+//#include "algo2_2.c"
+#include "algo2_3.c"
 
 int main() {
     //prvni ukol
@@ -10,6 +11,9 @@ int main() {
 
     //druhy ukol
     //task_2();
+
+    //treti ukol
+    //task_3();
     return 0;
 }
 

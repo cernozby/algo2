@@ -30,7 +30,7 @@ void print_movie_data(Movie m) {
 }
 
 void print_database (Movie database[]) {
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
         print_movie_data(database[i]);
     }
 }
@@ -45,9 +45,9 @@ int search_database_by_name(Movie database[], char s[]) {
 }
 
 int decrease_rating (Movie database[], unsigned int index, short value) {
-    int ratingAfterDecrease = database[value].rating - value;
+    int ratingAfterDecrease = database[index].rating - value;
     if (ratingAfterDecrease > 5 || ratingAfterDecrease < 1) {return -1;}
-    database[value].rating = ratingAfterDecrease;
+    database[index].rating = ratingAfterDecrease;
     return 0;
 }
 
@@ -72,11 +72,12 @@ int task_1() {
     Movie m3 = {"The Matrix", 1999, 63, 5};
     Movie m4 = {"Kill Bill", 2004, 30, 3};
     Movie m5 = {"Leon", 1994, 16, 4};
-    Movie movies[5]  = {m1, m2, m3, m4, m5};
+    Movie m6 = {"pokus", 1994, 16, 5};
+    Movie movies[6]  = {m1, m2, m3, m4, m5, m6};
 
-    //print_database(movies);
-    //decrease_rating(movies, 3, 2);
-    //print_database(movies);
+    print_database(movies);
+    decrease_rating(movies, 5, 4);
+    print_database(movies);
     //print_movie_data(nth_highest_budget_movie(movies,3));
     //printf("%d\n", search_database_by_name(movies,"Leon"));
     return 0;

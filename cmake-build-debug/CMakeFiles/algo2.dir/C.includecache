@@ -6,25 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Zbysa/CLionProjects/algo2/algo2_1.c
-stdio.h
+C:/Users/Zbysa/CLionProjects/algo2/algo2_3.c
+assert.h
 -
 stdlib.h
--
+C:/Users/Zbysa/CLionProjects/algo2/stdlib.h
+stdio.h
+C:/Users/Zbysa/CLionProjects/algo2/stdio.h
 string.h
 C:/Users/Zbysa/CLionProjects/algo2/string.h
 
-C:/Users/Zbysa/CLionProjects/algo2/algo2_2.c
-stdio.h
--
-math.h
-C:/Users/Zbysa/CLionProjects/algo2/math.h
-stdlib.h
--
-
 C:/Users/Zbysa/CLionProjects/algo2/main.c
-algo2_1.c
-C:/Users/Zbysa/CLionProjects/algo2/algo2_1.c
-algo2_2.c
-C:/Users/Zbysa/CLionProjects/algo2/algo2_2.c
+algo2_3.c
+C:/Users/Zbysa/CLionProjects/algo2/algo2_3.c
 
