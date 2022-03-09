@@ -3,7 +3,8 @@
 //
 //#include "algo2_1.c"
 //#include "algo2_2.c"
-#include "algo2_3.c"
+//#include "algo2_3.c"
+#include "algo2_4.c"
 
 int main() {
     //prvni ukol
@@ -14,6 +15,9 @@ int main() {
 
     //treti ukol
     //task_3();
+
+    //ctvrty ukol
+    task_4();
     return 0;
 }
 

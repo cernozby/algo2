@@ -42,7 +42,6 @@ int binary_search_index(int array[], int left, int right, int e) {
     if (left > right) {return -1;}
     int index = floor((left + right) /2);
     cmp_binary_search_rec++;
-    if (e == array[index]) {return index;}
 
     cmp_binary_search_rec++;
     if (e < array[index]) {
@@ -50,6 +49,9 @@ int binary_search_index(int array[], int left, int right, int e) {
     } else {
         return binary_search_index(array, index+1, right, e);
     }
+
+    if (e == array[index]) {return index;}
+
 }
 
 int binary_search_rec(int array[], int n, int e) {
